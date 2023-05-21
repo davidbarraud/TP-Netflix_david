@@ -1,0 +1,30 @@
+.CardImage {
+    background: linear-gradient(to right,  rgba(11, 20, 59), rgba(64, 14, 32));
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.CardImage h3 {
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.CardImage p{
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.CardImage img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+}

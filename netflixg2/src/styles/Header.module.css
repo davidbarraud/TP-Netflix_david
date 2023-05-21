@@ -1,0 +1,11 @@
+/*Header*/
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, #000000b5 47%, #00000014 100%);
+    width: 100%;
+    padding: 10px auto;
+}

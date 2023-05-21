@@ -1,0 +1,32 @@
+/*Footer*/
+.layoutItem{
+    position: relative;
+    text-align: start;
+    color: #6b6969;
+    font-weight: 400;
+}
+
+.layoutItem ul{
+    margin-right: 9rem;
+}
+
+.layoutItem li {
+    position: relative;
+    list-style: none;
+    text-decoration: underline;
+    line-height: 2rem;
+}
+
+.background {
+    position: relative;
+    max-width: 100%;
+    padding: 38px 90px 25px 90px;
+    background-color: rgb(0, 8, 29);
+}
+.layoutItem li a:hover {
+    color: aliceblue;
+    position: relative;
+    list-style: none;
+    text-decoration: underline;
+    line-height: 2rem;
+}
