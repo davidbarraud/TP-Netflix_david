@@ -6,7 +6,7 @@ import { BsXLg } from "react-icons/bs";
 const BasicExample = () => {
   return (
     <Container className='m-0 p-0'>
-      <Accordion defaultActiveKey="0" >
+      <Accordion defaultActiveKey="0"  >
         <Accordion.Item eventKey="1" >
           <Accordion.Header>¿Qué es RecFlix?</Accordion.Header>
           <Accordion.Body>

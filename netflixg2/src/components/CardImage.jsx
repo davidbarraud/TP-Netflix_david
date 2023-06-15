@@ -12,7 +12,7 @@ return(
                 <Col sm={12} md={6} lg={6}>
                     <img src={props.src} alt={props.alt} />
                 </Col>
-                <Col sm={12} md={6} lg={6}>
+                <Col className='align-self-center' sm={12} md={6} lg={6}>
                     <h3>{props.titulo} </h3>
                     <p>{props.cuerpo} </p>
                 </Col>
