@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import { TbWorld } from 'react-icons/tb';
 import Button from 'react-bootstrap/Button';
 import styles from '../styles/Header.module.css';
+import ButtonLogin from './ButtonLogin';
 
 
 const Header = () => {
@@ -39,7 +40,8 @@ const Header = () => {
           </Row>
           <Row className='mx-2'>
             <Col md="auto">
-              <Button variant="danger">Iniciar sesión</Button>
+              <ButtonLogin/>
+              
             </Col>
           </Row>
         </div>
