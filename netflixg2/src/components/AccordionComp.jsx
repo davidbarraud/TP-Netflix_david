@@ -8,7 +8,7 @@ const BasicExample = () => {
     <Container className='m-0 p-0'>
       <Accordion defaultActiveKey="0"  >
         <Accordion.Item eventKey="1" >
-          <Accordion.Header>¿Qué es RecFlix?</Accordion.Header>
+          <Accordion.Header>¿Qué es RecFlix? </Accordion.Header>
           <Accordion.Body>
             Recflix es un servicio de streaming que ofrece una gran variedad de películas,
             series y documentales premiados en casi cualquier pantalla conectada a internet.
@@ -18,7 +18,7 @@ const BasicExample = () => {
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
-          <Accordion.Header>¿Cuánto Cuesta Recflix?</Accordion.Header>
+          <Accordion.Header>¿Cuánto Cuesta RecFlix?</Accordion.Header>
           <Accordion.Body>
             Disfruta Recflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming,
             todo por una tarifa plana mensual. Planes desde $ 999 hasta $ 2.399 al mes
