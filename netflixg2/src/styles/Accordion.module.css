@@ -1,0 +1,10 @@
+.accordion_item {
+    background-color: blue;
+    color: blue;
+    
+}
+
+.accordion {
+    --bs-accordion-bg: #d71d1d;
+    
+}
