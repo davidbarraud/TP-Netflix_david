@@ -2,12 +2,13 @@ import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
 import { BsPlusLg } from "react-icons/bs";
 import { BsXLg } from "react-icons/bs";
-import '../styles/Accordion.module.css';
+//import '../styles/Accordion.module.css';
+
 
 const BasicExample = () => {
   return (
-    <Container className='m-0 p-0'>
-      <Accordion defaultActiveKey="0"  >
+    <Container className='m-0 p-0 '>
+      <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="1"  >
           <Accordion.Header >¿Qué es RecFlix? </Accordion.Header>
           <Accordion.Body >
