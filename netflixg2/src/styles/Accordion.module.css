@@ -1,10 +1,26 @@
 
 .accordion {
-    --bs-accordion-bg: #d71d1d ;
-    --bs-accordion-bg: #f01717 ;
-    --bs-accordion-btn-bg: #198754 ;
-    --bs-accordion-active-color: #15315b;
-    --bs-accordion-active-bg: #e7f1ff;
-
-      
+    --bs-accordion-bg: #040037;
+    --bs-accordion-btn-bg: #132144 ;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-active-bg: #132144;
+    --bs-accordion-color: #fff;
+    --bs-accordion-btn-color: #fff;
+    --bs-accordion-btn-padding-x: 2.25rem;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/></svg>");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z'/></svg>");
+    --bs-accordion-border-width: none;
+  
 }
+
+.item2 {
+    margin-bottom: 7px;
+}
+
+.encabezado button{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+ 
